@@ -1,0 +1,104 @@
+
+
+
+/*main style sheet*/
+main{
+    font-family: "Merriweather";
+    background-color: var(--color3);
+}
+/* Global Styles */
+:root{
+    --color1: rgb(46,82,82);
+    --color2: rgb(227, 175, 85);
+    --color3: rgb(239, 232, 227);
+    --color4: rgb(255, 234, 212);
+    --font1: "Merriweather";
+}
+
+
+/*navbar*/
+
+#navbar{
+    background-color: var(--color1);
+    
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+/* Hero Section */
+
+#hero{
+    background-image: url('../img/hero.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: azure;
+    font-family: var(--font1);
+}
+
+#mas{ 
+    background-color: var(--color2);
+    color:black;
+    border: black;
+}
+
+#mas:hover{
+    background-color: var(--color1);
+    color: white;
+}
+
+
+/* text */
+#text{
+    color: var(--color1);
+    font-family: var(--font1);
+}
+#text p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 2rem;
+    color : var(--color1);
+    font-family: var(--font1);
+}
+
+/*info section*/
+
+#info{
+    
+    color: var(--color1);
+    font-family: var(--font1);
+    font-weight: 300;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--color1);
+    font-family: var(--font1);
+    text-align: center;
+}
+
+li:hover{
+    transition: 0.5s;
+    color: var(--color2);
+    border-radius: 5px;
+}
+#contacto{
+    background-color: var(--color2);
+    color: var(--color1);
+    font-family: var(--font1);
+    font-weight: 300;
+    text-align: center;
+    border: var(--color1) 1px solid;
+}
+
+#contacto:hover{
+    background-color: var(--color1);
+    color: white;
+}
